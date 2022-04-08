@@ -7,8 +7,6 @@
 <p>This command is your general-purpose branch administration tool. It lets you create isolated development environments within a single repository.</p>
 <h3>git checkout</h3>
 <p>In addition to checking out old commits and old file revisions, git checkout is also the means to navigate existing branches. Combined with the basic Git commands, it’s a way to work on a particular line of development.</p>
-<h3>git clean</h3>
-<p>Removes untracked files from the working directory. This is the logical counterpart to git reset, which (typically) only operates on tracked files.</p>
 <h3>git clone</h3>
 <p>Creates a copy of an existing Git repository. Cloning is the most common way for developers to obtain a working copy of a central repository.</p>
 <h3>git commit</h3>
@@ -39,7 +37,6 @@
 <p>A convenient tool for administering remote connections. Instead of passing the full URL to the fetch, pull, and push commands, it lets you use a more meaningful shortcut.</p>
 <h3>git reset</h3>
 <p>Undoes changes to files in the working directory. Resetting lets you clean up or completely remove changes that have not been pushed to a public repository.</p>
-<h3>git revert</h3>
-<p>Undoes a committed snapshot. When you discover a faulty commit, reverting is a safe and easy way to completely remove it from the code base.</p>
+
 <h3>git status</h3>
 <p>Displays the state of the working directory and the staged snapshot. You’ll want to run this in conjunction with git add and git commit to see exactly what’s being included in the next snapshot.</p>
